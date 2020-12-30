@@ -1,8 +1,8 @@
 .status-bar {
+    color: black;
     display: flex;
     justify-content: center;
     padding: 5px 3px;
-    position: fixed;
     top:0px;
 }
 
