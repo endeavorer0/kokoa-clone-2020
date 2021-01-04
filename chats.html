@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats - Kokoa Clone</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>51%</span>
+            <i class="fas fa-battery-half"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    <header class="screen-header">
+        <h1 class="screen-header__title">Chats</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-comment-medical fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <span><i class="fas fa-cog fa-lg"></i></span>
+        </div>
+    </header>
+
+    <main class="chats-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="img/profile.jpg" class="user-component__avatar user-component__avatar--md"/>
+                <div class="user-component__text">
+                    <h4 class="user-component__name chats-screen__name">Eunjin Na<span id="pin"><i class="fas fa-thumbtack"></i></span></h4>
+                    <h6 class="chats-screen__message">2/6 토익 모의고사</h6>
+                </div>
+            </div>
+            <div class="user-component__column"></div>
+        </div>
+        <div class="chats-screen__favorites">
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="img/mom.jpg" class="user-component__avatar user-component__avatar--md"/>
+                    <div class="user-component__text">
+                        <h4 class="user-component__name chats-screen__name">Mom<span id="pin"><i class="fas fa-thumbtack"></i></span></h4>
+                        <h6 class="chats-screen__message">어서 쉬어</h6>    
+                    </div>
+                </div>
+                <div class="user-component__column"></div>
+            </div>
+        </div>
+        <div class="chats-screen__channel">
+
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="img/channel.jpg" class="user-component__avatar user-component__avatar--md"/>
+                    <div class="user-component__text">
+                        <h4 class="user-component__name chats-screen__name">Channel<span id="pin"><i class="fas fa-thumbtack"></i></span></h4>
+                        <h6 class="chats-screen__message">친구 추가하면 이모티콘을 선물로 드립니다.</h6>
+                    </div>
+                </div>
+                <div class="user-component__column chats-notification__column">
+                    <span class="chats-notification">2</span>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="chats.html"><span class="nav__notification">1</span><i class="fas fa-comment fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="more.html"><span class="nav__new">●</span><i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+        </ul>
+    </nav>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+</html>

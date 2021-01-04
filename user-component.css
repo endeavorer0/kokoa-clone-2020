@@ -36,6 +36,11 @@
     height: 80px;
 }
 
+.user-component__avatar--md {
+       width: 70px;
+       height: 70px;
+       border-radius: 25px;
+}
 .user-component__avatar--sm {
     width: 60px;
     height: 60px;
@@ -44,4 +49,9 @@
 
 .user-component__column:last-child {
     color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__name {
+    font-weight: 500;
+    font-size: 16px;
 }

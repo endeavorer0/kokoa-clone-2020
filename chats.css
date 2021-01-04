@@ -1,0 +1,56 @@
+#friends-display-link {
+    text-align: center;
+    display: block;
+    background-color: #fafafa;
+    padding: 15px 0px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#friends-display-link i {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.chats-screen {
+    padding: 0px var(--horizontal-space);
+}
+
+.chats-screen__favorites,
+.chats-screen__channel {
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.chats-screen__channel-header,
+.chats-screen__favorites-header {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.chats-screen__message {
+    color: rgba(0, 0, 0, 0.5);
+    font-size:14px;
+}
+
+.chats-screen__name {
+    margin-bottom: 20px;
+}
+
+#pin {
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.chats-notification__column {
+    position: relative;
+}
+.chats-notification {
+    background-color: tomato;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    
+}
